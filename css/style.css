@@ -4,7 +4,7 @@
     font-family: 'work sans';
 }
 
-/* GOLBAL STYLE */
+/* GLOBAL STYLE */
 .btn-primary{
     color: #005FAC;
     font-weight: 600;
@@ -116,7 +116,7 @@
      margin-left: 64px;
      padding-top: 60px;
  }
- /* CONTECT WITH ME */
+ /* CONTACT WITH ME */
  .contact{
      background: url('../images/contact.jpg');
      background-repeat: no-repeat;
