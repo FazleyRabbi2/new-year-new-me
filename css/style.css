@@ -106,7 +106,7 @@
  .call-now{
      background-image: url(../images/gradient1.png), url(../images/watch.png);
      background-repeat: no-repeat;
-     background-size: cover;
+     background-size: contain;
      margin-top: 130px;
      margin-bottom: 130px;
      border-radius: 8px;
@@ -116,11 +116,11 @@
      padding-top: 60px;
  }
 
- /* CONTACT AREA STYLE */
-.contact{
+ /* FOOTER AREA STYLE */
+footer{
     background:#151414;
 }
-.contact-container{
+.footer-container{
     display: flex;
     gap:300px;
     padding: 200px;
