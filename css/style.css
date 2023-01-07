@@ -19,6 +19,7 @@
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 40px;
+    text-align: center;
 }
 .description{
     font-size: 16px;
@@ -115,15 +116,64 @@
      margin-left: 64px;
      padding-top: 60px;
  }
+ /* CONTECT WITH ME */
+ .contact{
+     background: url('../images/contact.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 40px 0;
+     box-shadow: inset 0 0 0 2000px rgba(255, 0, 150, 0.3);
+ }
+ .contact-heading{
+     text-align: center;
+ }
+ hr{
+     width: 200px;
+     margin: auto;
+     height: 5px;
+     background: #fff;
+     border: none;
+ }
+ form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+
+ }
+ .contact input, textarea{
+     display: block;
+     margin-top: 30px;
+     width: 100%;
+     border: none;
+     padding: 30px;
+     font-size: 20px;
+     border-radius: 10px;
+ }
+ .contact input{
+     height: 50px;
+ }
+ .contact-button{
+     padding: 30px 50px;
+     font-size: 20px;
+     margin:20px auto;
+     display: block;
+     color: #fff;
+     background: #005FAC;
+     border: none;
+     border-radius: 10px;
+ }
+
 
  /* FOOTER AREA STYLE */
-footer{
+ footer{
     background:#151414;
-}
+
+ }
 .footer-container{
     display: flex;
     gap:300px;
     padding: 200px;
+
 }
 .future-description{
     color: #fff;
@@ -149,7 +199,7 @@ footer{
     font-size: 25px;
     margin-bottom: 20px;
 }
-input[type="email"]{
+.subscribe input[type="email"]{
     padding: 30px;
     width: 100%;
     border: none;
@@ -158,7 +208,7 @@ input[type="email"]{
     margin-bottom: 15px;
     font-size: 18px;
 }
-input[type="submit"]{
+.subscribe input[type="submit"]{
     background: #005FAC;
     color: #FFFFFF;
     font-weight: 600;
